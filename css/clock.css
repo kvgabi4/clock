@@ -1,0 +1,31 @@
+@font-face {
+    font-family: 'Cyberverse';
+    src: url('font/Cyberverse.eot?#') format('embedded-opentype'),
+    url('font/Cyberverse.woff') format('woff'),
+    url('font/Cyberverse.ttf') format('truetype');
+}
+
+html {
+    font-family: 'Cyberverse', 'Times New Roman', Times, serif;
+    font-size: 42px;
+    letter-spacing: .2rem;
+    height: 100%;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    align-items: center;
+    background-color: rgb(0,0,0);
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    width: 100%;
+}
+
+.clock {
+    color: rgb(26, 207, 252);
+}
